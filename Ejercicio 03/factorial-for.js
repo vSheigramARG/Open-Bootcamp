@@ -1,10 +1,5 @@
-function factorialize(num) {
-    if (num === 0 || num === 1)
-        return 1;
-    for (var i = num - 1; i >= 1; i--) {
-      num *= i;
-    }
-    return num;
+let factorial = 1
+for (let i = 10; i > 0; i--) {
+    factorial *= i
 }
-
-console.log(factorialize(10));
+console.log(factorial)
