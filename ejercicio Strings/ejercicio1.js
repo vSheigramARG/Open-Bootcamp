@@ -10,3 +10,5 @@ const primeraLetra = nombre.charAt(nombre.length[0]);
 const ultimaLetra = apellido.charAt(apellido.length -1);
 
 const estudianteSinEspacios = estudiante.split(" ").join("");
+
+const nombreEnEstudiante = estudiante.includes(nombre);
